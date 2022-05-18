@@ -1,0 +1,142 @@
+.i{
+     display : flex;
+     height:100vh;
+     background-color: rgb(85, 4, 4);
+     color: aliceblue;
+}
+
+.i-left{
+    flex : 1;
+}
+
+.i-right{
+    flex : 1;
+    position: relative;
+}   
+
+.i-left-wrapper
+{
+    margin: 10%;
+    padding: 50px;
+    height: 60%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: center;
+    border-radius: 5%;
+
+}
+
+.i-intro
+{
+font-size: 30px;
+font-weight: 300;
+}
+
+.i-name
+{
+    font-size: 50px;
+}
+
+.i-title
+{
+    height: 50px;
+    overflow: hidden;
+}
+
+.i-title-wrapper
+{
+    height:100%;
+    animation: move 10s ease-in-out infinite alternate;
+}
+
+@keyframes move 
+{
+    25%{
+        transform: translateY(-70px);
+    }
+    50%{
+        transform: translateY(-140px);
+    }
+    75%{
+        transform: translateY(-210px);
+    }
+    100%{
+        transform: translateY(-280px);
+    }
+    
+}
+
+.i-title-item
+{
+    height: 70px;
+    font-weight: 900;
+    color: black;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    font-size: 30px;
+}
+.i-img
+{
+    width: 70%;
+    height: 70%;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 18%;
+    margin-left: 10%;
+}
+.i-bg
+{
+    /* clip-path: circle(50% at 50% 50%); */
+    clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
+    background-color:black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin-top: 8%;
+    /* overflow: hidden; */
+
+}
+
+.i-scroll
+{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    bottom: 20px;
+    color: aqua;
+
+}
+
+@media screen and (max-width: 480px) {
+    .i
+    {
+        flex-direction: column;
+        width: 100%;
+    }
+    .i-left-wrapper
+    {
+        display: flex;
+        flex-direction: column;
+        height: 60%;
+        justify-content: space-between;
+    }
+
+    .i-right
+    {
+        display: flex;
+        flex-direction: column;
+        height: 60%;
+    }
+
+    *
+    {
+       width: fit-content;
+       
+    }
+    
+
+    
+}

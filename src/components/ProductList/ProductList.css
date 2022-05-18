@@ -1,0 +1,40 @@
+.p1
+{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.p1-texts{
+    width: 65%;
+}
+
+.p1-title{
+    font-size : 50px;
+    font-weight: 600;
+}
+.p1-margin{
+    margin: 20px 0pxs;
+}
+
+.p1-list
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+
+  .p1-list
+  {
+      width: 100%;
+      margin-right: 0%;
+      margin-left: 0%;
+      justify-content: space-between;
+
+  }
+}
