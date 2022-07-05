@@ -12,11 +12,26 @@ const About = () =>{
              <div className='a-right-wrapper'>
                  <div className='a-me'><h1>About Me</h1></div>
                  <div className='a-me-first'>
-                <h2>This is my website. This is just some random text to fill
-                up the space.</h2>
+                <h2>Pursuing BTech(IT) 3rd Year || Full Stack Developer || DSA Enthusiast || Love To Code</h2>
                  </div>
                  <div className='a-me-second'> 
-                 <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quidem ea eligendi consectetur error quae voluptate asperiores impedit harum, iure pariatur quia quis quisquam reprehenderit magni expedita, cupiditate ullam voluptatem. </h4>
+                 <h4>I am pursuing B.Tech in Information
+Technology from USICT, having
+good knowledge of C,C++ and DSA.I
+am passionate individual with great
+communication skills. Actively
+looking for relevent internship
+opportunities.My skillset include C
+C++,
+DSA,
+HTML,
+CSS,
+Bootstrap,
+JavaScript,
+NodeJS,
+EJS,
+MongoDB,
+React</h4>
                  </div>
              </div>
          </div>

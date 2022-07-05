@@ -12,12 +12,10 @@ function App() {
   return (
    <div style={{backgroundColor : darkMode ?"black" : "white" , Color :darkMode && "White"}}>
      <Toggle> </Toggle>
-     <Introduction />
+     <Introduction/>
     <About />
     <ProductList/>
     <Contact/>
-  
-
    </div>
   )
 }
